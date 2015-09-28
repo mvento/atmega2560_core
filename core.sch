@@ -505,4 +505,53 @@ Text Label 9900 1350 2    60   ~ 0
 GND
 Text Label 9900 1450 2    60   ~ 0
 VCC
+Wire Wire Line
+	6600 4350 6600 4050
+Wire Wire Line
+	6900 4350 6900 4050
+$Comp
+L R R?
+U 1 1 5609846B
+P 6600 3900
+F 0 "R?" V 6680 3900 50  0000 C CNN
+F 1 "10k" V 6600 3900 50  0000 C CNN
+F 2 "" V 6530 3900 30  0000 C CNN
+F 3 "" H 6600 3900 30  0000 C CNN
+	1    6600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 560984D2
+P 6900 3900
+F 0 "R?" V 6980 3900 50  0000 C CNN
+F 1 "10k" V 6900 3900 50  0000 C CNN
+F 2 "" V 6830 3900 30  0000 C CNN
+F 3 "" H 6900 3900 30  0000 C CNN
+	1    6900 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3750 6600 3600
+Wire Wire Line
+	6600 3600 6900 3600
+Wire Wire Line
+	6900 3600 6900 3750
+Wire Wire Line
+	6750 3600 6750 3500
+Connection ~ 6750 3600
+Text Label 6750 3500 0    60   ~ 0
+VCC
+Text Label 6600 4350 1    60   ~ 0
+SDA
+Text Label 6900 4350 1    60   ~ 0
+SCL
+Wire Wire Line
+	5200 4550 5350 4550
+Wire Wire Line
+	5200 4650 5350 4650
+Text Label 5350 4650 0    60   ~ 0
+SDA
+Text Label 5350 4550 0    60   ~ 0
+SCL
 $EndSCHEMATC
