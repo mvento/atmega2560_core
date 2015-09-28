@@ -6,3 +6,5 @@ Kicad >=4.0 required
 
 ## Design 
 This design only includes the most basic elements to work with the microcontroller Atmega 2560. This design is being used in Regadiu project (www.regadiu.com).
+
+It includes JTAG and SPI for debug and program the microcontroller.
