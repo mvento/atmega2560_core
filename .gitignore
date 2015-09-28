@@ -1,0 +1,8 @@
+# Kicad ignore files #
+###########################
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.lst
+_autosave-*
+.DS_Store
